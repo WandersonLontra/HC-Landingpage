@@ -1,0 +1,34 @@
+{
+    "users":[
+        {
+            "name":"Amanda Strecth",
+            "profession": "Creative Designer",
+            "avatar_img":"user1",
+            "message":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida vulputate urna, in iaculis lacus ultrices non. Curabitur facilisis molestie augue, a lobortis sem fringilla nec. Ut at sagittis tellus, id venenatis neque. Fusce scelerisque placerat risus, at aliquet sapien rhoncus non."
+        },
+        {
+            "name":"Stefanie Cik",
+            "profession": "Product Owner",
+            "avatar_img":"user2",
+            "message":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida vulputate urna, in iaculis lacus ultrices non. Curabitur facilisis molestie augue, a lobortis sem fringilla nec. Ut at sagittis tellus, id venenatis neque. Fusce scelerisque placerat risus, at aliquet sapien rhoncus non."
+        },
+        {
+            "name":"Jonas Kakaroto",
+            "profession": "Front-End Developer",
+            "avatar_img":"user3",
+            "message":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida vulputate urna, in iaculis lacus ultrices non. Curabitur facilisis molestie augue, a lobortis sem fringilla nec. Ut at sagittis tellus, id venenatis neque. Fusce scelerisque placerat risus, at aliquet sapien rhoncus non."
+        },
+        {
+            "name":"Sergio de Paula",
+            "profession": "Back-End Developer",
+            "avatar_img":"user4",
+            "message":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida vulputate urna, in iaculis lacus ultrices non. Curabitur facilisis molestie augue, a lobortis sem fringilla nec. Ut at sagittis tellus, id venenatis neque. Fusce scelerisque placerat risus, at aliquet sapien rhoncus non."
+        },
+        {
+            "name":"Enolla Campbell",
+            "profession": "Mobile Designer",
+            "avatar_img":"user5",
+            "message":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum gravida vulputate urna, in iaculis lacus ultrices non. Curabitur facilisis molestie augue, a lobortis sem fringilla nec. Ut at sagittis tellus, id venenatis neque. Fusce scelerisque placerat risus, at aliquet sapien rhoncus non."
+        }
+    ]
+}

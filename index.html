@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="styles/style.css">
+        <title>BLACK FRIDAY</title>
+    </head>
+    <body>
+        <section class="container">
+            
+            <div class="tilt" data-tilt-scale="1.5">
+                BLACK<br> FRIDAY
+            </div>
+            <div id="register-link" class="button">QUERO ME INSCREVER AGORA</div>
+        </section>
+
+        <section class="testimonials">
+            <h1><span>De</span>poimen<span>tos</span></h1>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                </div><!--swiper-wrapper-->
+            </div> <!--swiper-container-->
+        </section>
+
+        <section class="register">
+            <div class="attention">
+                <h1>Dê o <span>primeiro</span> passo para o seu <span>futuro</span></h1>
+
+                <p>Cadatre seu e-mail para receber as promoções.</p>
+            </div>
+
+            <form>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                <input type="email" name="email" id="email" placeholder="Digite seu melhor e-mail" required>
+                <button class="button" type="submit">CADASTRAR</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>Todos os direitos reservados a BusinessCIA.</p>
+        </footer>
+
+        <script type="text/javascript" src="scripts/vanilla-tilt.min.js"></script>
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".tilt"), {
+                max: 7,
+                speed: 400
+            });     
+        </script>  
+        <script type="module">
+            import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
+            var swiper = new Swiper(".swiper-container", {
+                effect: "coverflow",
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: "auto",
+                coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 100,
+                modifier: 2,
+                slideShadows: true,
+                },
+                loop: true,
+            });
+        </script>
+        <script type="text/javascript" src="scripts/main.js"></script>
+
+    </body>
+</html>
